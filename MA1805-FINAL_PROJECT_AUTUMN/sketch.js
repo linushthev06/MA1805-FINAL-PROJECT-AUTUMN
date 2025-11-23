@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background(10, 10, 10, 25);  // low alpha to create fade effect
+  background(10, 10, 10, 25);  // Creates fade effect
 
   // Draw all particles
   for (let p of particles) {
@@ -23,7 +23,7 @@ function draw() {
   }
 }
 
-// When mouse moves, add particles to simulate a data shadow
+// When mouse moves, add particles to process a data shadow
 function mouseMoved() {
   for (let i = 0; i < 5; i++) {
     particles.push(new Particle(mouseX, mouseY));
