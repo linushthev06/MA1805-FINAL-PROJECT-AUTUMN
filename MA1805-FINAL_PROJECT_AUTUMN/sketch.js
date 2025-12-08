@@ -35,7 +35,7 @@ function keyTyped() {
   dataWords.push(new DataWord(key, mouseX, mouseY));
 }
 
-// Particle class for shadow traces
+// Particle class for shadow traces (since I have had Python experience before, I know how to create classes and objects using my object-oriented programming knowledge)
 class Particle {
   constructor(x, y) {
     this.x = x + random(-5, 5);
