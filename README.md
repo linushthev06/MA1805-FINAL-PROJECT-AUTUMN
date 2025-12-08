@@ -11,7 +11,8 @@ When the user moves their mouse, it leaves trails of glowing particles. The part
 
 The concept for this project comes from articles related to data tracking and digital identity. Specifically, The Atlantic's "The Internet Knows You Better Than You Know Yourself" article (https://www.theatlantic.com/technology/archive/2019/12/internet-knows-you/603160/) talks about how companies use our behaviour to create profiles. As well as, the explanation from Mozilla (https://foundation.mozilla.org/en/blog/what-is-data-tracking/) about data tracking also helped to form the concept of this project. 
 
-A number of issues were encountered during development. Initially, the application would slow down due to the creation of particles whenever the mouse moved faster. The issue was resolved by putting the transparency and removing particles whenever they became invisible to the eye. Also, letters would appear messy due to their overlaps, so adding the fade functions helped to ensure the screen isn't messy. As well as, the canvas would not be displayed properly across different screens; therefore, resizing helped a lot to display the canvas. 
+There were some issues that encountered during development. Initially, the application would slow down due to the creation of particles whenever the mouse moved faster. The issue was resolved by putting the transparency and removing particles whenever they became invisible to the eye. Also, letters would appear messy due to their overlaps, so adding the fade functions helped to ensure the screen isn't messy. As well as, the canvas would not be displayed properly across different screens; therefore, resizing helped a lot to display the canvas. 
+
 
 
 
